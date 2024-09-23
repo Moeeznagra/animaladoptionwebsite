@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+header{
+    width: 100%;
+    position: fixed;
+    padding: 3em 12%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header .logo{
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+header .logo:hover{
+    opacity: 1;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+ul li{
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+ul li:hover{
+    opacity: 1;
+}
+#menu-icon{
+    font-size: 3em;
+    display: none;
+}
+section{
+    min-height: 100vh;
+    padding: 10% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+.info-box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.info-box h1{
+    font-size: 5em;
+    line-height: 1;
+}
+.info-box h3{
+    font-size: 2em;
+}
+.gradient-txt{
+    background: linear-gradient(270deg, #2fffdc 10%, #87ff38 100%);
+    background-clip: text;
+    color: transparent;
+}
+.btn-box{
+    display: flex;
+    gap: 1em;
+}
+.btn{
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid transparent;
+    color: black;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: 2px solid;
+}
+.bento-grid{
+    flex: 1;
+}
